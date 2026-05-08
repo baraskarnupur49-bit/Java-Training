@@ -26,6 +26,7 @@ void add(int a,int b)
 class B extends A{
     void add(int a,int b)
     {
+        super.add(a, b);
         System.out.println("Total form B:"+(a+b));
     }
 }
